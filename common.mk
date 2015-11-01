@@ -4,5 +4,6 @@ ARCH := arm
 ZIMAGE := arch/arm/boot/zImage
 ZIP_FILES_DIR := device/lge/g2-common/zip_files
 TARGET_REQUIRES_DTB := true
+DTB_DIR := arch/arm/boot
 
 include vendor/render/configs/common.mk
